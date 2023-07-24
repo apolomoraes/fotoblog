@@ -16,6 +16,11 @@
   --color-base-gray-900: #202024;
 }
 
+html,
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
 body {
   font-size: 1.6rem;
   background-color: var(--color-base-white);
