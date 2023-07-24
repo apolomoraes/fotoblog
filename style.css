@@ -122,6 +122,10 @@ main h1 {
   object-fit: cover;
 }
 
+.item img:hover {
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+}
+
 .item {
   background-color: var(--color-base-white);
   border-radius: .8rem;
