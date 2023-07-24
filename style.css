@@ -103,6 +103,23 @@ ul li.active {
   object-fit: cover;
 }
 
+main h1 {
+  padding-top: 1.6rem;
+  font-size: 2.4rem;
+}
+
+.gallery {
+  margin-top: 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+}
+
+.item img {
+  width: 100%;
+}
+
 footer {
   text-align: center;
 
