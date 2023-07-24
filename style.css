@@ -44,3 +44,55 @@ main {
   background-color: var(--color-base-gray-100);
   overflow-y: scroll;
 }
+
+header,
+nav,
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 7.2rem;
+
+  font-weight: 700;
+}
+
+header form {
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.8rem;
+  color: var(--color-base-gray-300);
+}
+
+ul li.active {
+  color: var(--color-base-gray-900);
+}
+
+.avatar {
+  width: 4.2rem;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+
+  font-weight: 600;
+}
+
+footer p {
+  color: var(--color-base-gray-300);
+
+  padding: 1.6rem;
+}
+
+footer a {
+  color: var(--color-base-gray-900);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
